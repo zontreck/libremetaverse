@@ -9,4 +9,10 @@
 	  <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 	  <Configurations>Debug;Release</Configurations>
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\LibreMetaverse.StructuredData\LibreMetaverse.StructuredData.csproj" />
+	  <ProjectReference Include="..\LibreMetaverseTypes\LibreMetaverse.Types.csproj" />
+	  <ProjectReference Include="..\LibreMetaverse\LibreMetaverse.csproj" />
+	</ItemGroup>
       </Project>
