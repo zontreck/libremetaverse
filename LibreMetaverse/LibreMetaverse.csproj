@@ -2,71 +2,23 @@
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
-<<<<<<< HEAD
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <SignAssembly>false</SignAssembly>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <Configurations>Debug;Release</Configurations>
-=======
-    <RootNamespace>LibreMetaverse</RootNamespace>
-    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
-    <TargetFrameworks>netstandard2.0;netstandard2.1;net50</TargetFrameworks>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
-    <BaseAddress>285212672</BaseAddress>
-    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
-    <DefineConstants>TRACE;DEBUG</DefineConstants>
-    <DebugSymbols>True</DebugSymbols>
-    <FileAlignment>4096</FileAlignment>
-    <Optimize>False</Optimize>
-    <OutputPath>..\bin\</OutputPath>
-    <RegisterForComInterop>False</RegisterForComInterop>
-    <RemoveIntegerChecks>False</RemoveIntegerChecks>
-    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
-    <WarningLevel>4</WarningLevel>
-    <NoStdLib>False</NoStdLib>
-    <NoWarn>1591,1574,0419</NoWarn>
-    <PlatformTarget>AnyCPU</PlatformTarget>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
-    <BaseAddress>285212672</BaseAddress>
-    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
-    <DefineConstants>TRACE</DefineConstants>
-    <DocumentationFile>LibreMetaverse.XML</DocumentationFile>
-    <DebugSymbols>False</DebugSymbols>
-    <FileAlignment>4096</FileAlignment>
-    <Optimize>True</Optimize>
-    <OutputPath>..\bin\</OutputPath>
-    <RegisterForComInterop>False</RegisterForComInterop>
-    <RemoveIntegerChecks>False</RemoveIntegerChecks>
-    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
-    <WarningLevel>4</WarningLevel>
-    <NoStdLib>False</NoStdLib>
-    <NoWarn>1591,1574,0419</NoWarn>
-    <PlatformTarget>AnyCPU</PlatformTarget>
->>>>>>> 33d99e994132b3939a608d10b58bd667b9f8d80e
   </PropertyGroup>
   
   
   <ItemGroup>
-<<<<<<< HEAD
     <PackageReference Include="log4net" Version="2.0.9" />
     <PackageReference Include="Microsoft.Experimental.Collections" Version="1.0.6-e190117-3" />
     <PackageReference Include="Microsoft.Extensions.ObjectPool" Version="3.1.8" />
     <PackageReference Include="Ronz.Compression" Version="17.9.21.3" />
     <PackageReference Include="System.Drawing.Common" Version="4.7.0" />
-=======
-    <PackageReference Include="log4net" Version="2.0.12" />
-    <PackageReference Include="Microsoft.Experimental.Collections" Version="1.0.6-e190117-3" />
-    <PackageReference Include="Microsoft.Extensions.ObjectPool" Version="5.0.2" />
-    <PackageReference Include="System.Drawing.Common" Version="5.0.0" />
->>>>>>> 33d99e994132b3939a608d10b58bd667b9f8d80e
     <PackageReference Include="System.Net.Http" Version="4.3.4" />
     <PackageReference Include="System.Net.NameResolution" Version="4.3.0" />
-    <PackageReference Include="System.Threading.Channels" Version="5.0.0" />
+    <PackageReference Include="System.Threading.Channels" Version="4.7.1" />
     <PackageReference Include="XmlRpcCore" Version="3.1.2.77" />
     <PackageReference Include="zlib.net-mutliplatform" Version="1.0.4" />
   </ItemGroup>
